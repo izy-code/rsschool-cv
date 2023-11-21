@@ -38,6 +38,6 @@ const isPalindrome = (string) => {
 
 # Languages
 
-* Russian (native)
 * English (intermediate)
+* Russian (native)
 * Ukrainian (intermediate)

@@ -1,1 +1,1 @@
-https://izy-code.github.io/rsschool-cv/cv
+https://izy-code.github.io/rsschool-cv/
