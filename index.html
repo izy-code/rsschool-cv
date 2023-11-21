@@ -41,14 +41,14 @@
             <pre><code>
                 const isPalindrome = (string) =&gt; {
                     const formattedString = string.replaceAll(' ', '').toLowerCase();
-                
+
                     for (let i = 0; i &lt; formattedString.length / 2; i++) {
                         if (formattedString.at(i) !== formattedString.at(-i - 1)) {
-                             return false; 
-                        } 
-                    } 
-                    
-                    return true; 
+                             return false;
+                        }
+                    }
+
+                    return true;
                 };
             </code></pre>
         </section>
