@@ -23,25 +23,16 @@ I have a mechanical engineering background and am currently delving into fronten
 # Code example
 
 ```
-const setFullSizeModalHandlers = (pictures) => {
-  let currentPictureData;
+const isPalindrome = (string) => {
+  const formattedString = string.replaceAll(' ', '').toLowerCase();
 
-  pictureContainerNode.addEventListener('click', (evt) => {
-    const thumbnailNode = evt.target.closest('a.picture');
-
-    if (thumbnailNode) {
-      evt.preventDefault();
-
-      const thumbnailId = +thumbnailNode.dataset.thumbnailId;
-
-      currentPictureData = pictures.find(({ id }) => id === thumbnailId);
-      openFullSizeModal(currentPictureData);
+  for (let i = 0; i < formattedString.length / 2; i++) {
+    if (formattedString.at(i) !== formattedString.at(-i - 1)) {
+      return false;
     }
-  });
+  }
 
-  commentLoaderNode.addEventListener('click', () => {
-    loadComments(currentPictureData.comments);
-  });
+  return true;
 };
 ```
 
