@@ -18,3 +18,28 @@ I have a background in mechanical engineering and am currently delving into fron
 * Gulp
 * Java (Core)
 * Figma, Photoshop
+
+# Code example
+
+```
+const setFullSizeModalHandlers = (pictures) => {
+  let currentPictureData;
+
+  pictureContainerNode.addEventListener('click', (evt) => {
+    const thumbnailNode = evt.target.closest('a.picture');
+
+    if (thumbnailNode) {
+      evt.preventDefault();
+
+      const thumbnailId = +thumbnailNode.dataset.thumbnailId;
+
+      currentPictureData = pictures.find(({ id }) => id === thumbnailId);
+      openFullSizeModal(currentPictureData);
+    }
+  });
+
+  commentLoaderNode.addEventListener('click', () => {
+    loadComments(currentPictureData.comments);
+  });
+};
+```
