@@ -7,7 +7,7 @@
 
 # About Me
 
-I have a background in mechanical engineering and am currently delving into frontend development, aiming to master its intricacies and advance my professional expertise.
+I have a mechanical engineering background and am currently delving into frontend development, aiming to master its intricacies and advance my professional expertise.
 
 # Skills
 
@@ -43,3 +43,9 @@ const setFullSizeModalHandlers = (pictures) => {
   });
 };
 ```
+
+# Languages
+
+* Russian (native)
+* English (intermediate)
+* Ukrainian (intermediate)
