@@ -14,10 +14,11 @@ I have a mechanical engineering background and am currently delving into fronten
 * HTML
 * CSS (BEM methodology, SCSS and Less preprocessors)
 * JavaScript
-* Git (GitHub experience).
+* Git, GitHub
 * Gulp
 * Java (Core)
-* Figma, Photoshop
+* VS Code, Eclipse IDE
+* Figma, Adobe Photoshop
 
 # Code example
 
